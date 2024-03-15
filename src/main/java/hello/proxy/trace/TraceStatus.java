@@ -2,9 +2,9 @@ package hello.proxy.trace;
 
 public class TraceStatus {
 
-    private TraceId traceId;
-    private Long startTimeMs;
-    private String message;
+    private TraceId traceId;    // 트랜잭션 아이디
+    private Long startTimeMs;   // 시작시간
+    private String message;     // 메시지
 
     public TraceStatus(TraceId traceId, Long startTimeMs, String message) {
         this.traceId = traceId;
